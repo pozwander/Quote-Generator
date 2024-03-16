@@ -25,3 +25,5 @@ document.addEventListener('DOMContentLoaded', function () {
         console.error('Button or quote display element not found.');
     }
 });
+
+
