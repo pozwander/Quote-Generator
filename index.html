@@ -9,15 +9,27 @@
 <body>
     <div class="quoteGenerator">
         <img src="nikadev.png" alt="Nika" class="scale-in-center" id="nikaDeveloper" title="This is Dev!">
-        <h1 class="tracking-in-expand">Random Quote Generator</h1>
-        <button class="scale-in-center" id="getQuoteBtn">Get Quote</button>
-        <div id="quoteDisplay"></div> 
+        <h1 class="tracking-in-expand">შემთხვევითი ანდაზების გენერატორი</h1>
+        <div class="buttons">
+          <button class="categoryBtn" data-category="inspirational">ინსპირაციული</button>
+          <button class="categoryBtn" data-category="life">ცხოვრებისეული</button>
+          <button class="categoryBtn" data-category="love">რომანტიკა</button>
+          <button class="categoryBtn" data-category="success">წარმატება</button>
+          <button class="categoryBtn" data-category="wisdom">სიბრძნე</button>
+          <button class="categoryBtn" data-category="humor">იუმორი</button>
+          <button class="categoryBtn" data-category="friendship">მეგობრობა</button>
+          <button class="categoryBtn" data-category="motivational">მოტივაციური</button>
+          <button class="categoryBtn" data-category="nature">Ბუნება</button>
+          <button class="categoryBtn" data-category="philosophy">ფილოსოფია</button>
+        </div>
+        <div id="quoteContainer"></div>
+      </div>
     </div>
     
     <div class="documentation">
-        <h2 class="tracking-in-expand">Documentation</h2>
-        <p id="doc1" class="tracking-in-contract "><a href="#" target="_blank" title="Official Repository">quote generator</a> is a simple, zero-configuration command-line tool designed to provide inspiration and ideas to people. It effortlessly serves up random motivational quotes and creative prompts, making it powerful enough for aiding in productivity and personal growth, but also intuitive and adaptable for use in brainstorming, local development, and learning environments.</p>
-        <h3 class="tracking-in-expand">Change Logs</h3>
+        <h2 class="tracking-in-expand">ინფორმაცია</h2>
+        <p id="doc1" class="tracking-in-contract "><a href="#" target="_blank" title="Official Repository">ანდაზების გენერატორი</a> არის მარტივი, ნულოვანი კონფიგურაციის ბრძანების ხაზის ინსტრუმენტი, რომელიც შექმნილია ადამიანებისთვის შთაგონებისა და იდეების მიწოდებისთვის. ის უპრობლემოდ ემსახურება შემთხვევით მოტივაციურ ანდაზებს და კრეატიულ მოთხოვნებს, რაც საკმარისად მძლავრს ხდის პროდუქტიულობასა და პიროვნულ ზრდას, მაგრამ ასევე ინტუიციურ და ადაპტირებულად გამოსაყენებლად აზრთა შტორმში, ადგილობრივ განვითარებასა და სასწავლო გარემოში.</p>
+        <!-- <h3 class="tracking-in-expand">Change Logs</h3>
         <table class="tracking-in-expand" id="changeLogs">
             <thead>
               <tr>
@@ -42,16 +54,14 @@
                 <td>Show the current version of the program</td>
                 <td>1.0.0</td>
               </tr>
-              <!-- Add more <tr> elements here as needed -->
             </tbody>
-          </table>
-          <h3 class="tracking-in-expand">Social</h3>
+          </table> -->
+          <h3 class="tracking-in-expand">სოციალური</h3>
           <div id="socials" class="tracking-in-expand">
             <a href="#"><img src="github-mark.png" alt="Github" title="Developer Profile"></a>
           </div>
     </div>
 
-    <!-- <a href="https://runkit.com" id="testbtn">Try on RunKit</a> -->
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,29 +1,31 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const getQuoteBtn = document.getElementById('getQuoteBtn'); // Get Quote Button Element
-    const quoteDisplay = document.getElementById('quoteDisplay'); // Get Quote Display Element
+document.addEventListener("DOMContentLoaded", function() {
+  const quoteContainer = document.getElementById("quoteContainer");
+  const categoryBtns = document.querySelectorAll(".categoryBtn");
 
-    if (getQuoteBtn && quoteDisplay) { // Function for Both Variable
-        getQuoteBtn.addEventListener('click', function () {
-            fetch('quotes.json') // On Click Fetch Data From "urdata.json"
-                .then(response => response.json())
-                .then(data => {
-                    const randomIndex = Math.floor(Math.random() * data.length);
-                    const randomQuote = data[randomIndex];
-                    displayQuote(randomQuote);
-                    console.warn("Working!"); // Log "working" if fetching and displaying quote was successful
-                })
-                .catch(error => {
-                    console.error('Error fetching quotes:', error);
-                    console.log('Error!'); // Log "error" if there was an error fetching quotes
-                });
-        });
+  async function getQuotes() {
+    const response = await fetch('quotes.json');
+    const data = await response.json();
+    return data;
+  }
 
-        function displayQuote(quote) {
-            quoteDisplay.innerHTML = `<p>"${quote.quote}"</p><p>- ${quote.author}</p>`;
-        }
-    } else {
-        console.error('Button or quote display element not found.');
-    }
+  function generateRandomQuote(category) {
+    const normalizedCategory = category.toLowerCase(); // Normalize category name
+    getQuotes().then(quotes => {
+      const filteredQuotes = quotes.filter(quote => quote.category.toLowerCase() === normalizedCategory);
+      if (filteredQuotes.length > 0) {
+        const randomIndex = Math.floor(Math.random() * filteredQuotes.length);
+        const { author, quote } = filteredQuotes[randomIndex];
+        quoteContainer.innerHTML = `<p>"${quote}" - ${author}</p>`;
+      } else {
+        quoteContainer.innerHTML = "<p>No quotes found in this category.</p>";
+      }
+    });
+  }
+
+  categoryBtns.forEach(btn => {
+    btn.addEventListener("click", function() {
+      const category = this.getAttribute("data-category");
+      generateRandomQuote(category);
+    });
+  });
 });
-
-
