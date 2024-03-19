@@ -57,6 +57,10 @@ The Quote Generator utilizes a curated database of quotes, randomly selecting on
 - JS
 - JSON
 
+## License
+
+The Quote Generator is open source and available under the [MIT License](https://github.com/[pozwander/Quote-Generator/blob/main/LICENSE). Feel free to use, modify, and distribute the code as you see fit.
+
 ## Acknowledgement
 
 Thanks to [E. Chichua](https://ge.linkedin.com/in/etuna-chichua-534573131) who equipped and helped me to make this application a reality.
