@@ -59,7 +59,7 @@ The Quote Generator utilizes a curated database of quotes, randomly selecting on
 
 ## License
 
-The Quote Generator is open source and available under the [MIT License](https://github.com/[pozwander/Quote-Generator/blob/main/LICENSE). Feel free to use, modify, and distribute the code as you see fit.
+The Quote Generator is open source and available under the [MIT License](https://github.com/pozwander/Quote-Generator/blob/main/LICENSE). Feel free to use, modify, and distribute the code as you see fit.
 
 ## Acknowledgement
 
