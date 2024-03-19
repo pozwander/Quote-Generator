@@ -1,5 +1,9 @@
 <div align="center">
+<<<<<<< HEAD
+  <img height="150" padding-bottom="50" src="https://media.gq-magazine.co.uk/photos/62e3a869462bbdd05e0f7ea3/1:1/w_1280,h_1280,c_limit/Batfleck_0000_MCDJULE_EC046.jpg"s/>
+=======
   <img height="150" src="https://media.gq-magazine.co.uk/photos/62e3a869462bbdd05e0f7ea3/1:1/w_1280,h_1280,c_limit/Batfleck_0000_MCDJULE_EC046.jpg"s/>
+>>>>>>> 4be65e926af54f484892804032c7c4dc4ffc2b63
 </div>
 
 ![MIT LICENSE](https://img.shields.io/github/license/scottbromander/the_marketplace.svg?style=flat-square)
@@ -57,16 +61,23 @@ The Quote Generator utilizes a curated database of quotes, randomly selecting on
 - JS
 - JSON
 
+<<<<<<< HEAD
+=======
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 _Note, include this only if you have a license file. GitHub will generate one for you if you want!_
 
+>>>>>>> 4be65e926af54f484892804032c7c4dc4ffc2b63
 ## Acknowledgement
 
 Thanks to [E. Chichua](https://ge.linkedin.com/in/etuna-chichua-534573131) who equipped and helped me to make this application a reality.
 
 ## Support
 
+<<<<<<< HEAD
 If you have suggestions or issues, please email me at [nikofore2007@gmail.com](www.google.com)
+=======
+If you have suggestions or issues, please email me at [nikofore2007@gmail.com](www.google.com)
+>>>>>>> 4be65e926af54f484892804032c7c4dc4ffc2b63
