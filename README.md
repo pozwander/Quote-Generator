@@ -1,98 +1,72 @@
-<br clear="both">
-
 <div align="center">
-  <img height="150" src="https://media.gq-magazine.co.uk/photos/62e3a869462bbdd05e0f7ea3/1:1/w_1280,h_1280,c_limit/Batfleck_0000_MCDJULE_EC046.jpg"  />
+  <img height="150" src="https://media.gq-magazine.co.uk/photos/62e3a869462bbdd05e0f7ea3/1:1/w_1280,h_1280,c_limit/Batfleck_0000_MCDJULE_EC046.jpg"s/>
 </div>
 
-###
+![MIT LICENSE](https://img.shields.io/github/license/scottbromander/the_marketplace.svg?style=flat-square)
+![REPO SIZE](https://img.shields.io/github/repo-size/scottbromander/the_marketplace.svg?style=flat-square)
+![TOP_LANGUAGE](https://img.shields.io/github/languages/top/scottbromander/the_marketplace.svg?style=flat-square)
+![FORKS](https://img.shields.io/github/forks/scottbromander/the_marketplace.svg?style=social)
 
-<h2 align="left">Hi 👋! This is Quote Generator by Nika</h2>
+# Quote Generator
 
-###
+## Description:
 
-<div align="center">
-  <img src="https://profile-counter.glitch.me/pozwander/count.svg?"  />
-</div>
+_Quote Generator_
 
-###
+Our project, crafted in a quick sprint of just 2 days by [pozwander](https://github.com/pozwander), is a special tool designed to spark inspiration. It focuses on the rich Georgian culture, drawing from its deep wells of philosophy, history, and wisdom. This Quote Generator isn't just a simple app; it's a gateway to discovering powerful words that have the potential to inspire, motivate, and provoke thought.
 
-<h6 align="center">Documentation:</h6>
+Imagine having access to a treasure trove of quotes that reflect the spirit and depth of Georgian culture, all with the click of a button. Whether you're looking for a burst of motivation, a moment of reflection, or a connection to the philosophical roots of Georgia, this tool brings it all to your fingertips. It's perfect for anyone curious about the insights and wisdom that Georgian culture has to offer.
 
-###
+Developed with ease of use in mind, our Quote Generator is user-friendly and straightforward, making it accessible to people of all ages. Whether you're a student looking for inspiration for your next project, a teacher incorporating Georgian culture into your curriculum, or simply someone who loves to explore different philosophical perspectives, this tool has something for you.
 
-<p align="left">The Quote Generator is a simple yet powerful tool designed to spark inspiration and generate ideas through the power of words. Created by Pozwander this project aims to deliver a wide array of quotes from various genres and authors, catering to a diverse range of moods and preferences.</p>
+So, dive into a world where words inspire and cultures connect. Explore the richness of Georgian wisdom and let it light up your day with inspiration. Our project is more than just a generator of quotes; it's a bridge to a deeper understanding and appreciation of what makes Georgian philosophy resonate with so many.
 
-###
+Check it out and find your next favorite quote: [Visit Our Quote Generator](https://pozwander.github.io/Quote-Generator/).
 
-<h6 align="center">Languages Used in Quote Generator:</h6>
+### Prerequisites
 
-###
+No need to install anything just fork it.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" alt="github logo"  />
-</div>
+- [Fork Tutorial](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
 
-###
+# Features
 
-<div align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=pozwander&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dark&hide_border=false" height="150" alt="languages graph"  />
-</div>
+- Random Quote Generation: At the click of a button, receive a randomly selected quote from our extensive collection.
+- Customizable Categories: Choose from a variety of categories to tailor the quotes to your current mood or need, whether it be motivation, love, wisdom, or humor.
+- Easy Integration: Designed with simplicity in mind, the Quote Generator can be easily integrated into your own projects or websites to provide a continuous stream of inspiration.
+- Responsive Design: Enjoy a seamless experience across all devices, thanks to the responsive design that adapts to your screen size.
 
-###
+## Getting Started
 
-<h6 align="center">Languages I Know:</h6>
+To get started with the Quote Generator, follow these simple steps:
 
-###
+1. Clone the repository: `git clone https://github.com/[Owner's GitHub Username]/quote-generator.git`
+2. Navigate to the project directory: `cd quote-generator`
+3. Install dependencies: `npm install`
+4. Run the application: `npm start`
+5. Your local server will start, and you can access the Quote Generator at http://localhost:3000.
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="30" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="30" alt="linux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" height="30" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" height="30" alt="photoshop logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg" height="30" alt="wordpress logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-</div>
+## How It Works
 
-###
+The Quote Generator utilizes a curated database of quotes, randomly selecting one each time the user requests. Through a simple and intuitive interface, users can click for new quotes or specify categories for more personalized results.
 
-<div align="left">
-  <a href="pozwander" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
-  </a>
-  <a href="nikofore2007@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
-  </a>
-</div>
+## Built With
 
-###
+- HTML
+- CSS
+- JS
+- JSON
 
-<br clear="both">
+## License
 
-<img src="https://raw.githubusercontent.com/pozwander/pozwander/output/snake.svg" alt="Snake animation" />
+[MIT](https://choosealicense.com/licenses/mit/)
 
-###
+_Note, include this only if you have a license file. GitHub will generate one for you if you want!_
+
+## Acknowledgement
+
+Thanks to [E. Chichua](https://ge.linkedin.com/in/etuna-chichua-534573131) who equipped and helped me to make this application a reality.
+
+## Support
+
+If you have suggestions or issues, please email me at [nikofore2007@gmail.com](www.google.com)
